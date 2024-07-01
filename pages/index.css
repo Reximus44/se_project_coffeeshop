@@ -3,7 +3,8 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
-
+  font-size: 16px;
+  line-height: 20;
 }
 
 .header {
@@ -13,6 +14,11 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  background-image:url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nav {
@@ -33,6 +39,11 @@
   margin: 0;
   list-style-type: none;
   gap: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav__link {
@@ -43,10 +54,13 @@
 .header__title {
   min-width: 729px;
   font-size: 60px;
-  line-height: 70px;
   margin: 183px 0 0;
-  letter-spacing: -0.6;
   font-weight: 500;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -0.6px;
 }
 
 .header__description {
@@ -54,9 +68,22 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
 }
 
 .header__span-accent {
+  display: block;
+  color: #2f80ed;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__description_span-accent {
   display: block;
 }
 
@@ -64,8 +91,71 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  align-items: flex-end;
+  z-index: 0;
+}
+
+.header__image {
+  height: 568px;
+  width: 646px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
 }
 
 .header__paragrapg {
   margin: 0;
+}
+
+.recipes {
+  padding: 100px 80px 215px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__span-accent {
+  display: block;
+}
+
+.recipes__videos {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 60px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.recipes__iframe {
+gap: 40px;
 }
