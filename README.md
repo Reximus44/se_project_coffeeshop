@@ -1,16 +1,11 @@
-# Triple Peaks Coffee Shop
+__1. Project name__
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+*Project Coffeeshop* 
 
-## Project features
+__2. Project description__
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+Using __HTML__, and __CSS__ this website attempts to provide an easy way to order your favorite drinks from the __Triple Peaks Coffee Shop__
 
-## Plan on improving the project
+__3. Future plans__
 
-Add your ideas here :)
+Adding a lobby for other *Coffe Shop goers* to share their favorite caffinated drinks could be __cool.__
