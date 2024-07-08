@@ -8,7 +8,7 @@
 .menu__title {
   text-align: center;
   margin: 0 0 24px;
-  max-width: 780px;
+  /* max-width: 780px; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -25,6 +25,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
 }
 .menu__cards {
   display: flex;
@@ -52,6 +53,11 @@
 
 .card__title {
   margin: 0 0 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list {
