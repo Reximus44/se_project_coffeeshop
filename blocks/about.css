@@ -34,6 +34,15 @@
   padding-left: 80px;
 }
 
+.about__paragraph {
+  margin: 20px 0;
+  max-width: 660px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .about__content {
   color: #fff;
   font-family: "Noto Serif", Arial, sans-serif;
@@ -44,7 +53,7 @@
   max-width: 660px;
   position: relative;
   margin-left: auto;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   padding-right: 80px;
 }
 
