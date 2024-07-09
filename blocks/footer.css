@@ -3,7 +3,7 @@
 }
 
 .footer__content {
-  padding: 60px 80px 108px;
+  padding: 60px 80px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -29,7 +29,7 @@
 
 .footer__list-item {
   list-style-type: none;
-  color:#fff;
+  color: #fff;
   display: flex;
   justify-content: left;
   padding: 0px;
@@ -52,7 +52,6 @@
   padding: 108px 80px 60px;
   color: #fff;
   margin: 0;
-  padding-bottom: 60px;
 }
 
 .footer__social-link {
@@ -67,8 +66,8 @@
 }
 
 .footer__social-link:hover {
-color: #C1C1C1;
-transition: color 1s ease-in-out 0.5s;
+  color: #c1c1c1;
+  transition: color 1s ease-in-out 0.5s;
 }
 
 .footer__social-list {
