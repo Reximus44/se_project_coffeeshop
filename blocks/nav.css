@@ -31,3 +31,8 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.nav__link:hover {
+  opacity: 70%;
+  transition: color 1s ease-in-out 0.5s;
+}
