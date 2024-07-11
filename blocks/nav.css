@@ -26,13 +26,13 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-family: "Inter", Arial, sans-serif;
+  /* font-family: "Inter", Arial, sans-serif; */
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
 .nav__link:hover {
-  opacity: 70%;
+  color: #2F80ED;
   transition: color 1s ease-in-out 0.5s;
 }
