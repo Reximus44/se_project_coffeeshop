@@ -27,7 +27,7 @@
 .header__span-accent {
   display: block;
   color: #2f80ed;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -41,7 +41,7 @@
   margin: 28px 0 0;
   font-style: normal;
   font-weight: normal;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   z-index: 2;
 }
 

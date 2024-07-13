@@ -16,6 +16,11 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__label_type_checkbox {
@@ -42,8 +47,8 @@
   margin-top: 8px;
   height: 60px;
   padding: 24px;
-  border-radius: 2px;
-  font-family: Inter;
+  border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
